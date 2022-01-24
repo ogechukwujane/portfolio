@@ -1,0 +1,94 @@
+.home-container {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+    url(../images/background.jpg);
+  background-size: cover;
+  margin: 0em;
+}
+
+.image {
+  width: 18em;
+  height: 33em;
+  position: absolute;
+  bottom: 0em;
+  left: 0em;
+}
+
+.text-wrapper {
+  width: 70%;
+  color: white;
+  padding-bottom: 1.5em;
+  text-align: left;
+  font-family: sans-serif;
+  position: absolute;
+  bottom: 0em;
+  left: 23em;
+}
+.text1 {
+  font-size: 1.5em;
+  letter-spacing: 0.5em;
+  margin-bottom: -1.2em;
+}
+.text2 {
+  font-size: 4em;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  line-height: 1.3em;
+}
+.text3 {
+  font-size: 1.5em;
+  margin-top: -1.2em;
+}
+@media screen and (max-width: 1030px) {
+  .image {
+    width: 18em;
+    height: 30em;
+    left: 2em;
+  }
+  .text-wrapper {
+    left: 4em;
+  }
+}
+@media screen and (max-width: 930px) {
+  .image {
+    width: 80%;
+    height: 80%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .home-container {
+    width: 100%;
+  }
+  .image {
+    width: 80%;
+    height: 80%;
+  }
+  .text-wrapper {
+    margin: 0em;
+    padding: 2em;
+    left: 0em;
+  }
+  .text1 {
+    font-size: 1.1em;
+  }
+  .text2 {
+    font-size: 2.3em;
+    line-height: 1em;
+  }
+  .text3 {
+    font-size: 1.1em;
+    letter-spacing: 0.1em;
+  }
+}
+@media screen and (max-width: 300px) {
+  .text1 {
+    font-size: 1em;
+  }
+  .text2 {
+    font-size: 2em;
+  }
+  .text3 {
+    font-size: 1em;
+  }
+}

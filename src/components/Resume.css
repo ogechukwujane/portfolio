@@ -1,0 +1,71 @@
+.resume-container {
+  border-bottom: 0.1em solid peru;
+  min-height: 100vh;
+  overflow: hidden;
+}
+.resume {
+  font-size: 1.2em;
+  color: orangered;
+  letter-spacing: 0.4em;
+  text-align: center;
+  font-weight: normal;
+  /* background-color: red; */
+  margin: 8em 0em -2em 0em;
+}
+.my-resume {
+  font-size: 2.7em;
+  font-weight: bold;
+  text-align: center;
+}
+.education-attained-container {
+  display: flex;
+  width: 80%;
+  /* background-color: red; */
+  margin: auto;
+}
+.education {
+  width: 30%;
+  text-align: center;
+  /* display: flex; */
+  /* justify-content: center; */
+  padding: auto 0em;
+}
+.my-degrees {
+  width: 70%;
+}
+.degree1 {
+  display: flex;
+  /* background-color: yellow; */
+  /* margin: 0em 1em; */
+}
+
+.degree2 {
+  display: flex;
+  /* background-color: green; */
+  /* margin: 0em 1em; */
+}
+.school {
+  width: 60%;
+  /* background-color: indigo; */
+  /* line-height: 0.5em; */
+}
+/* .graduated {
+  line-height: 0.5em;
+} */
+
+@media screen and (max-width: 900px) {
+  .resume-container {
+    color: white;
+  }
+}
+@media screen and (max-width: 560px) {
+  .education-attained-container {
+    display: block;
+  }
+  .degree1 {
+    display: block;
+  }
+  .degree2 {
+    display: block;
+  }
+}

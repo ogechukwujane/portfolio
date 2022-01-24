@@ -1,0 +1,80 @@
+.portfolio-container {
+  border-bottom: 0.1em solid peru;
+  min-height: 90vh;
+  /* overflow: hidden; */
+}
+.portfolio {
+  font-size: 1.2em;
+  color: orangered;
+  letter-spacing: 0.4em;
+  text-align: center;
+  font-weight: normal;
+  /* background-color: red; */
+  margin: 8em 0em -1em 0em;
+}
+.my-recent-work {
+  font-size: 2.7em;
+  font-weight: bold;
+  text-align: center;
+}
+.row {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  /* margin: auto; */
+  /* background-color: hotpink; */
+}
+.big {
+  /* background-color: indigo; */
+  padding-bottom: 5em;
+  width: 50%;
+  text-align: center;
+}
+.image-description-container {
+  width: 80%;
+  height: 25em;
+  /* background-color: green; */
+  margin: auto;
+  border-top: 0.1em solid gray;
+  box-shadow: 0.1em 0.3em 0.5em gray;
+  border-radius: 0.5em;
+}
+.my-work-image {
+  width: 100%;
+  height: 21em;
+  /* background-color: orange; */
+}
+.my-work-image a:hover {
+  color: rgb(170, 88, 11);
+  text-decoration: underline;
+  /* text-decoration-color: green; */
+}
+.design-name {
+  width: 100%;
+  background-color: rgba(51, 50, 50, 0.4);
+  position: relative;
+  top: 17.2em;
+  color: rgb(170, 88, 11);
+  padding: 0.1em 0em;
+  text-align: center;
+  /* color: green; */
+}
+.design-description {
+  text-align: center;
+  color: gray;
+}
+@media screen and (max-width: 560px) {
+  .my-recent-work {
+    line-height: 1em;
+  }
+  .row {
+    display: block;
+    /* margin: 0em 2em; */
+  }
+  .big {
+    width: 100%;
+  }
+  .image-description-container {
+    width: 90%;
+  }
+}
