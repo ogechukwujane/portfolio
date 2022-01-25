@@ -4,7 +4,8 @@ import Exit from '../images/exit.png';
 import {BsXLg} from "react-icons/bs";
 import {GiHamburgerMenu} from 'react-icons/gi';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
+// import { NavLink } from "react-router-dom";
 
 import "./Navbar.css";
 import { within } from "@testing-library/react";
@@ -47,35 +48,40 @@ const Navbar = () => {
                             role="button"
                             /></div>
                         <li>
-                                <NavLink to="/" className='home'
+                                <Link to="home" className='home'
+                                spy={true} smooth={true}
                                 onClick={() => SetShowNav(!showNav)}
                                 role="button"
-                                >HOME</NavLink>
+                                >HOME</Link>
                         </li>
                             <li>
                                 
-                                <NavLink to="/about" 
+                                <Link to="about" 
+                                spy={true} smooth={true}
                                 onClick={() => SetShowNav(!showNav)}
                                 role="button" 
-                                >ABOUT</NavLink>
+                                >ABOUT</Link>
                             </li>
                             <li>
-                                <NavLink to="/resume"
+                                <Link to="resume"
+                                spy={true} smooth={true}
                                 onClick={() => SetShowNav(!showNav)}
                                 role="button"
-                                >RESUME</NavLink>
+                                >RESUME</Link>
                             </li>
                             <li>
-                                <NavLink to="/portfolio"
+                                <Link to="portfolio"
+                                spy={true} smooth={true}
                                 onClick={() => SetShowNav(!showNav)}
                                 role="button"
-                                >PORTFOLIO</NavLink>
+                                >PORTFOLIO</Link>
                             </li>
                             <li>
-                                <NavLink to="contact" 
+                                <Link to="contact" 
+                                spy={true} smooth={true}
                                 onClick={() => SetShowNav(!showNav)}
                                 role="button"
-                                >CONTACT</NavLink>
+                                >CONTACT</Link>
                             </li>
                         </ul>
                         

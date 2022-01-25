@@ -1,7 +1,13 @@
+.aboutnav {
+  width: 100%;
+  height: 5em;
+}
 .about-container {
   min-height: 100vh;
+  padding-top: 4em;
   color: black;
   border-bottom: 0.1em solid peru;
+  margin-top: 0em;
 }
 .about-img {
   width: 17em;
@@ -18,7 +24,7 @@
   font-size: 1.2em;
   letter-spacing: 0.5em;
   text-align: center;
-  margin: 9em 0em -2em 0em;
+  margin-bottom: -2em;
 }
 .about-me {
   font-size: 2.7em;
@@ -34,13 +40,9 @@
   padding: 0em 1em 1em 0em;
   margin-top: -1.5em;
 }
-hr {
-  border: 2px solid black;
-  margin-bottom: 2em;
-}
 @media screen and (max-width: 900px) {
   .about-container {
-    color: white;
+    color: black;
   }
   .about-text {
     flex-direction: column;

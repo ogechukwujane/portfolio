@@ -1,11 +1,11 @@
 import react from "react";
 import Navbar from "./Navbar";
-import Oge from '../images/jany2.png'
+import Oge from '../images/jahne.png';
 import './Home.css';
 
 const Home = () => {
     return(
-        <div >
+        <div id="home" >
             <div className="home-container">
                 <div className="image-container">
                     <img src={Oge} className="image"  />

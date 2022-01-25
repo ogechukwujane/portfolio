@@ -4,7 +4,8 @@ import './Resume.css';
 
 const Resume = () => {
     return(
-        <div className="resume-container">
+        <div className="resume-container" >
+            <div className="resumenav" id="resume"></div>
             <p className="resume">RESUME</p>
             <p className="my-resume">My resume</p>
             <div className="education-attained-container">

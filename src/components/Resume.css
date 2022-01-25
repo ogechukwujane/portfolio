@@ -3,14 +3,17 @@
   min-height: 100vh;
   overflow: hidden;
 }
+.resumenav {
+  width: 100%;
+  height: 5em;
+}
 .resume {
   font-size: 1.2em;
   color: orangered;
   letter-spacing: 0.4em;
   text-align: center;
   font-weight: normal;
-  /* background-color: red; */
-  margin: 8em 0em -2em 0em;
+  margin: 4em 0em -2em 0em;
 }
 .my-resume {
   font-size: 2.7em;
@@ -18,54 +21,74 @@
   text-align: center;
 }
 .education-attained-container {
+  font-size: 1.1em;
   display: flex;
   width: 80%;
-  /* background-color: red; */
   margin: auto;
 }
 .education {
-  width: 30%;
+  width: 25%;
   text-align: center;
-  /* display: flex; */
-  /* justify-content: center; */
-  padding: auto 0em;
+  padding: 4em 0em 4em 0em;
 }
 .my-degrees {
   width: 70%;
 }
 .degree1 {
   display: flex;
-  /* background-color: yellow; */
-  /* margin: 0em 1em; */
 }
 
 .degree2 {
   display: flex;
-  /* background-color: green; */
-  /* margin: 0em 1em; */
 }
 .school {
   width: 60%;
-  /* background-color: indigo; */
-  /* line-height: 0.5em; */
 }
-/* .graduated {
-  line-height: 0.5em;
-} */
+.graduated {
+  width: 40%;
+}
 
 @media screen and (max-width: 900px) {
   .resume-container {
-    color: white;
+    color: black;
   }
 }
 @media screen and (max-width: 560px) {
+  .education {
+    width: 100%;
+    padding: 0em;
+    text-align: center;
+  }
   .education-attained-container {
     display: block;
+  }
+  .my-degrees {
+    width: 100%;
   }
   .degree1 {
     display: block;
   }
   .degree2 {
     display: block;
+    width: 100%;
+  }
+  .school {
+    width: 100%;
+    padding: 0em;
+  }
+  .graduated {
+    width: 100%;
+  }
+  .degree1 div:last-child {
+    margin-top: -1em;
+  }
+  .degree2 div:last-child {
+    margin-top: -1em;
+  }
+  .school p:last-child {
+    margin-top: -1em;
+  }
+  .graduated p:last-child {
+    margin-top: -1em;
   }
 }

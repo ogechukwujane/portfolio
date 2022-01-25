@@ -9,8 +9,8 @@ import './Contact.css'
 
 const Contact = () => {
     return(
-        <div className="contact-container">
-            {/* <Navbar/> */}
+        <div className="contact-container" >
+            <div className="contactnav" id="contact"></div>
             <p className="contact">CONTACT</p>
             <p className="work-together">Let's work together</p>
             <div className="contact-links">
