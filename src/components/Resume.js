@@ -1,5 +1,4 @@
 import react from "react";
-import Navbar from "./Navbar";
 import './Resume.css';
 
 const Resume = () => {

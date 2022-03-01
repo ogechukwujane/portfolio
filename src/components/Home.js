@@ -1,5 +1,4 @@
 import react from "react";
-import Navbar from "./Navbar";
 import Oge from '../images/jahne.png';
 import './Home.css';
 
@@ -16,7 +15,7 @@ const Home = () => {
                         <p className="text2">
                             I'm<br/> Ogechukwu Jane
                         </p>
-                        <p className="text3">A Software Developer</p>
+                        <p className="text3">A Web Designer</p>
                     </div>
                 </div>
             </div>

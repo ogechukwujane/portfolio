@@ -64,7 +64,6 @@ NavLink {
   }
   .hide-list-items {
     display: none;
-    /* transform: translateX(calc(-100%)); */
   }
   li {
     display: block;

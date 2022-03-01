@@ -1,34 +1,24 @@
 import react,{useState} from "react";
-import Hamburger from '../images/hamburger.png';
-import Exit from '../images/exit.png';
 import {BsXLg} from "react-icons/bs";
 import {GiHamburgerMenu} from 'react-icons/gi';
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import { Link } from "react-scroll";
-// import { NavLink } from "react-router-dom";
-
 import "./Navbar.css";
-import { within } from "@testing-library/react";
 
 const Navbar = () => {
     const [showNav, SetShowNav] = useState(false);
     const [navbar, SetNavBar] = useState(false);
 
     const changeBackground = () => {
-        // console.log(window.scrollY)
         if (window.scrollY >= 90){
             SetNavBar(true);
         } else
         SetNavBar(false);
     };
 
-    // const removeNavBar = () => {
-    //     console.log(window.scrollY)
-    //     SetShowNav(!showNav);
-    // }
+   
 
     window.addEventListener('scroll', changeBackground);
-    // window.addEventListener('scroll', removeNavBar);
+    
 
     return(
         <>

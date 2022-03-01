@@ -1,11 +1,5 @@
 import react from "react";
-import Navbar from "./Navbar";
 import './About.css';
-
-import Resume from './Resume';
-import Portfolio from './Portfolio';
-import Contact from './Contact';
-import image from '../images/og2.png';
 
 
 const About = () => {
@@ -17,8 +11,6 @@ const About = () => {
                     <p className="about">ABOUT</p>
                     <p className="about-me">About me</p>
                 <div className="about-text">
-
-                    <img src={image} className="about-img"/>
                     <div className="my-info">
                        <p> I'm a fullstack web designer with extensive knowledge and experience in building web applications
                         using Javascript, ReactJs, HTML, CSS, and bootstrap.</p>

@@ -2,9 +2,6 @@ import react from 'react';
 import Navbar from "./components/Navbar";
 import {
   BrowserRouter as Router, 
-  // Switch , 
-  Routes, 
-  Route
 } from 
 "react-router-dom";
 
@@ -29,20 +26,6 @@ function App() {
           <Portfolio/>
           <Contact/>
           <Footer/>
-
-          
-          {/* <Routes>
-            <Route exact path="/" element={<Home />}/>
-           
-            <Route path="/about" element= {<About />}/>
-              
-            <Route path="/resume" element={<Resume />}/>
-             
-            <Route path="/portfolio" element={<Portfolio />}/>
-              
-            <Route path="/contact" element={<Contact />}/>
-              
-          </Routes> */}
           
       </Router>
      

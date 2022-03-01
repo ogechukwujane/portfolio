@@ -1,10 +1,8 @@
 import react from "react";
-import Navbar from "./Navbar";
 import {BsMedium} from 'react-icons/bs';
 import {BsGithub} from "react-icons/bs"
 import { FaTwitter } from "react-icons/fa";
 import { MdAlternateEmail, MdPhoneAndroid } from "react-icons/md";
-// import { MdPhoneAndroid } from "react-icons/md";
 import './Contact.css'
 
 const Contact = () => {
@@ -20,7 +18,6 @@ const Contact = () => {
                 <><a href="#"><MdAlternateEmail/>Send a mail</a></> 
                 <><a href="#"><MdPhoneAndroid/>Call me</a></> 
             </div>
-            {/* <hr/> */}
         </div>
     )
 }

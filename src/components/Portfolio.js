@@ -1,5 +1,4 @@
 import react from "react";
-import Navbar from "./Navbar";
 import './Portfolio.css';
 import Mysite from '../images/portfolio.png'
 import Tictac from '../images/tictacb.png'

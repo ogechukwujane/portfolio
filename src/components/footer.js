@@ -6,7 +6,6 @@ const footer ={
     padding: '.1em',
     textAlign: 'center',
     color: 'white',
-    // fontFamily: 'san-sarif'
     borderTop: '.1em solid peru'
 };
 
