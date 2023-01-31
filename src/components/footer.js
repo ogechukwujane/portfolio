@@ -1,4 +1,4 @@
-import react from "react";
+
 
 const footer ={
     backgroundColor: '#001c75',

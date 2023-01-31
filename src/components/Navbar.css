@@ -42,6 +42,7 @@ li {
   padding: 1.3em 2em 1.3em 2.1em;
   font-size: 1.2em;
   font-weight: bold;
+  cursor: pointer;
 }
 NavLink {
   text-decoration: none;

@@ -1,4 +1,4 @@
-import react,{useState} from "react";
+import {useState} from "react";
 import {BsXLg} from "react-icons/bs";
 import {GiHamburgerMenu} from 'react-icons/gi';
 import { Link } from "react-scroll";

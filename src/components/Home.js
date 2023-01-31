@@ -1,4 +1,4 @@
-import react from "react";
+
 import Oge from '../images/jahne.png';
 import './Home.css';
 
@@ -7,7 +7,7 @@ const Home = () => {
         <div id="home" >
             <div className="home-container">
                 <div className="image-container">
-                    <img src={Oge} className="image"  />
+                    <img src={Oge} className="image" alt="" />
                 </div>
                 <div className="text-container">
                     <div className="text-wrapper">

@@ -1,4 +1,4 @@
-import react from "react";
+
 import './Portfolio.css';
 import Mysite from '../images/portfolio.png'
 import Tictac from '../images/tictacb.png'
@@ -14,8 +14,8 @@ const Portfolio = () => {
                 <div className="big">
                     <div className="image-description-container">
                         <div className="my-work-image">
-                        <img src={Tictac}  className="Portfolioimg"/>
-                            <a href="#"><p className="design-name">Tic-Tac-toe Game</p></a>
+                        <img src={Tictac}  className="Portfolioimg" alt=""/>
+                            <a href="/"><p className="design-name">Tic-Tac-toe Game</p></a>
                         </div>
                         <p className="design-description">Simple game to relieve your mind</p> 
                     </div>
@@ -23,8 +23,8 @@ const Portfolio = () => {
                 <div className="big">
                     <div className="image-description-container">
                         <div className="my-work-image">
-                        <img src={Mysite}  className="Portfolioimg"/>
-                           <a href="#"><p className="design-name">Foodie Page</p></a> 
+                        <img src={Mysite}  className="Portfolioimg" alt=""/>
+                           <a href="/"><p className="design-name">Foodie Page</p></a> 
                         </div>
                         <p className="design-description">My portfolio site</p>
                     </div>
